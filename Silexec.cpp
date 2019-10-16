@@ -7,6 +7,9 @@
 
 #define MAX_CMDLENGTH (32 * 1024)
 
+/*
+ * エントリポイント
+ */
 int APIENTRY wWinMain(
 		_In_ HINSTANCE hInstance,
 		_In_opt_ HINSTANCE hPrevInstance,

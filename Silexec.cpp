@@ -20,7 +20,7 @@ int APIENTRY wWinMain(
 	UNREFERENCED_PARAMETER(hPrevInstance);
 	UNREFERENCED_PARAMETER(nCmdShow);
 
-	if (wcsnlen_s(lpCmdLine, MAX_CMDLENGTH) <= 0) {
+	if (lpCmdLine == nullptr || lpCmdLine[0] == L'\0') {
 		return -1;
 	}
 
